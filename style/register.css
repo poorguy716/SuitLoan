@@ -1,0 +1,230 @@
+/* CSS Document */
+/*注册内容*/
+.register-box{
+	height:672px;
+	background:#fff;
+	margin-bottom:50px;
+	border:1px solid #E8ECEF;
+	border-radius:4px;
+	padding:0 20px;	
+	width:950px;
+	}
+.register-box .top{
+	height:70px;
+	position:relative;
+	line-height:70px;
+	}
+.register-box .top .box{
+	height:70px;
+	width:94px;
+	background:#fff;
+	display:inline-block;
+	color:#69738F;
+	font-size:16px;
+	margin-left:20px;
+	position:absolute;
+	z-index:10;
+	text-align:center;
+	font-weight:bold;
+	}
+.register-box .top .line{
+	border-top:1px solid #E7ECEE;
+	position:absolute;
+	left:0;
+	top:35px;
+	width:950px;
+	display:inline-block;
+	}
+/*状态*/
+.state{
+	background:url(../images/zc.png) no-repeat 0 0;
+	height:57px;
+	width:959px;
+	}
+.state .one{
+	width:302px;
+	height:57px;
+	text-align:center;
+	line-height:57px;
+	float:left;
+	}
+.state .one .round{
+	width:24px;
+	height:24px;
+	line-height:24px;
+	display:inline-block;
+	border-radius:12px;
+	background:#fff;
+	font-size:16px;
+	color:#8A94A8;
+	}
+.state .one .news{
+	color:#fff;
+	margin-left:13px;
+	}
+/*two*/
+.state .two{
+	width:317px;
+	height:57px;
+	text-align:center;
+	line-height:57px;
+	float:left;
+	}
+.state .two .round{
+	width:24px;
+	height:24px;
+	line-height:24px;
+	display:inline-block;
+	border-radius:12px;
+	background:#fff;
+	font-size:16px;
+	color:#475058;
+	}
+.state .two .news{
+	color:#475058;
+	margin-left:13px;
+	}
+	/*three*/
+.state .three{
+	width:317px;
+	height:57px;
+	text-align:center;
+	line-height:57px;
+	float:left;
+	}
+.state .three .round{
+	width:24px;
+	height:24px;
+	line-height:24px;
+	display:inline-block;
+	border-radius:12px;
+	background:#fff;
+	font-size:16px;
+	color:#475058;
+	}
+.state .three .news{
+	color:#475058;
+	margin-left:13px;
+	}
+	/*输入*/
+.register-box .input-box{
+	height:334px;
+	width:377px;
+	margin-top:50px;
+	color:#475058;
+	font-size:14px;
+	}
+.register-box .input-box .one{
+	float:right;
+	margin-bottom:28px;
+	}
+.register-box .input-box span{
+	color:red;
+	margin-right:3px;
+	}
+.register-box .input-box input{
+	width:250px;
+	height:40px;
+	border:1px solid #B4B9BD;
+	border-radius:4px;
+	color:#999999;
+	text-indent:4px;
+	outline:none;
+	}
+	/*验证*/
+.register-box .input-box .two{
+	height:42px;
+	width:393px;
+	color:#475058;
+	font-size:14px;
+	float:right;
+	position:relative;
+	}
+.register-box .input-box .two span{
+	margin-left:73px;
+	}
+.register-box .input-box .two input{
+	width:78px;
+	height:38px;
+	border:1px solid ##B4B9BD;
+	margin-left:1px;
+	}
+.register-box .input-box .two .consult{
+	height:42px;
+	display:inline-block;
+	position:absolute;
+	top:0;
+	right:52px;
+	}
+.register-box .input-box .two .refresh{
+	height:42px;
+	width:42px;
+	cursor:pointer;
+	display:inline-block;
+	position:absolute;
+	top:0;
+	right:0;
+	}
+	/*下一步*/
+agree-box
+.register-box .next{
+	width:520px;
+	height:205px;
+	margin-top:15px;
+	font-size:14px;
+	}
+.register-box .next .agree-box{
+	width:365px;
+	height:45px;
+	padding-left:129px;
+	line-height:45px;
+	}
+
+.register-box .next .agree-box .treaty .input{
+	display:inline-block;
+	vertical-align:-2px;
+	}
+.register-box .next .submit{
+	height:50px;
+	width:250px;
+	background:#15456F;
+	border-radius:4px;
+	margin-left:125px;
+	text-align:center;
+	line-height:50px;
+	font-size:16px;
+	color:#fff;
+	display:block;
+	}
+.register-box .next .submit:hover{
+	text-decoration:none;
+	}
+.register-box .next a{
+	color:#349CD8;	
+	}
+.register-box .next a:hover{
+	text-decoration:underline;
+	}
+.register-box .next span{
+	color:#8A949C;
+	margin-left:125px;
+	height:46px;
+	line-height:46px;
+	display:block;
+	padding-left:2px;
+	
+	}
+.register-box .next span .safety{
+	background:url(../images/sprites.png) no-repeat -101px -129px;
+	width:14px;
+	height:18px;
+	display:inline-block;
+	margin-left:-2px;
+	vertical-align:-5px;
+	}
+	/*活动图片*/
+.exercise{
+	position:absolute;
+	top:278px;
+	right:179px;
+	}
